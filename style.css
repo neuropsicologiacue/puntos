@@ -1,11 +1,12 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  font-family: 'Merriweather', serif;
+  background-color: #f9f9f9;
+  color: #333;
   margin: 0;
   padding: 0;
 }
 header {
-  background-color: #4c7eb3;
+  background-color: #1f3c88;
   color: white;
   padding: 20px;
   text-align: center;
@@ -14,11 +15,13 @@ section {
   padding: 20px;
   margin: 10px;
   background-color: white;
+  border-left: 6px solid #1f3c88;
   border-radius: 8px;
 }
 table {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 10px;
 }
 th, td {
   border: 1px solid #cccccc;
@@ -30,5 +33,5 @@ footer {
   font-size: 0.8em;
   margin-top: 20px;
   padding: 10px;
-  background-color: #ddd;
+  background-color: #e6e6e6;
 }
