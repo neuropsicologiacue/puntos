@@ -125,3 +125,49 @@ footer {
   50% { transform: scale(1.1); opacity: 0.85; }
   100% { transform: scale(1); opacity: 1; }
 }
+.neuro-banner {
+  background: url('URL_DE_TU_IMAGEN') repeat-x;
+  background-size: cover;
+  animation: scrollBanner 30s linear infinite;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  position: relative;
+}
+
+.banner-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.neuro-banner h1 {
+  font-size: 2.8em;
+  margin-bottom: 10px;
+}
+
+.neuro-banner p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.btn-start {
+  background-color: #1f8eea;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.btn-start:hover {
+  transform: scale(1.1);
+  background-color: #0d6cd3;
+}
+
+@keyframes scrollBanner {
+  0% { background-position: 0 0; }
+  100% { background-position: 10000px 0; }
+}
